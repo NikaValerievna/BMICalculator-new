@@ -3,7 +3,7 @@ package com.hillel.calculator;
 public class BMICalculator {
     public static void main (String[] args){
         double weight = 55;
-        double height = 165;
+        double height = 164;
 
         if(weight <= 0 || height <= 0){
             System.out.println("Please insert correct values.");
